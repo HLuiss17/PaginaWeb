@@ -86,7 +86,6 @@
     top: 130%;/*Ajusta la posicion verticalmente*/
     left: 50%;/*Ajusta la posicion horizontalmente*/
     transform: translate(-50%, -50%);/*centra todos los contenedores*/
-    
 }
 .main .contenedor .contenedor1{
     background-color: rgb(55, 164, 214);/*color de fondo*/
