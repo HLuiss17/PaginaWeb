@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;/* tamaño de caja: cuadro de borde*/
+    margin: 0; /*margen*/
+    padding: 0;/*Relleno*/
+    font-family: 'Times New Roman', Times, serif;/*Tipo de fuente*/
+    font-size: 16px;/*Tamaño de la fuente*/
+    line-height: 1.5; /*Separacion entre las lineas de texto*/
+    color: #333; /*Color de texto*/
+}
+/*Menu*/
+.menu{
+    position: relative;
+}
+.menu header nav ul {
+    margin: 0; /*Mragen*/
+    padding: 0;/*Relleno*/
+    text-align: right; /*alinear texto*/
+    background-image: url("../Img/bosque.jpg");
+    background-color: url;/*color de fondo de header*/
+    padding: 20px 10px; /* Añade un poco de relleno para hacer los enlaces más fáciles de hacer clic */
+
+}
+.menu header nav ul li {
+    display: inline; /*Mostrar en linea horizontal*/
+    text-decoration: none; /*Me borra los subrayados*/
+    margin-right: 30px;/*añade un espacio de forma horiizontal*/
+}
+.menu header nav ul li a {
+    text-decoration: none; /*quita el subryado del texto*/
+    margin-top: 10px;/*Espacio de la parte de arrriba*/
+    margin-bottom: 10px; /*Espacio de la parte de abajo*/
+    color: white; /*Color de fuente*/
+    /* font-weight: bold;la fuente hace mas gruesa */
+    font-size: 20px; /*tamo de la letra*/
+}
+.menu header nav ul li a:hover {/*hover me da color de fondo al pasar el mause*/
+    background-color:chartreuse; /*color de fondo*/
+    color: #333;/*color de fuente*/ 
+}
+/*texto*/
+.menu header nav ul .texto p{
+    margin-top: 100px;
+    color: white;/*color de fuente*/
+    text-align: center;/*alinear texto*/
+    font-size: 18px;/*tamañoo de la fuente*/
+    padding: 20px 20px; /*espaciado de la parte de arriba y abajo*/
+    margin-bottom: 50px; /*espaciode la parte de abajo*/
+}
+/*botones*/
+.menu header nav ul .botones {
+    text-align: center;/*alinea el button*/
+    margin-bottom: 200px;
+}
+.menu header nav ul .botones .button1 {
+    background-color: rgb(233, 210, 84);/*color de fondo*/
+    color: black;/*color de fondo*/
+    border: none;/*quita los bordes*/
+    border-radius: 5px;/*dar forma  aun button*/
+    cursor: pointer;/*cambia a cursor a modo pointer*/
+    margin-right: 10px; /*espacio de forma horizontal*/
+    padding: 5px 10px; /*añade un espacion de la parte superior e inferior*/
+    width: 150px; /*Da un ancho al button*/
+}
+.menu header nav ul .botones .button2 {
+    background-color: rgb(114, 192, 236);/*color de fondo*/
+    color: black;/*color de fondo*/
+    border: none;/*quita los bordes*/
+    border-radius: 5px;/*dar forma  aun button*/
+    cursor: pointer;/*cambia a cursor a modo pointer*/
+    margin-right: 10px; /*espacio de forma horizontal*/
+    padding: 5px 10px; /*añade un espacion de la parte superior e inferior*/
+    width: 150px; /*Da un ancho al button*/
+}
+.menu header nav ul .botones .button1:hover{ /*efectos de transicion para el button 1*/
+    background-color: gold; /*color de fondo del button*/
+    color: black;/*color de fuente del button*/
+}
+.menu header nav ul .botones .button2:hover{/*efectos de transicion para el button 2*/
+    background-color: rgb(7, 133, 218); /*color de fondo del button*/
+    color: black;/*color de fuente del button*/
+}
+/*Main------ Contenedores*/
+.main .contenedor{
+    display: flex; /*Contenedores d forma horizontal*/
+    position: absolute;/*coloca los contenedores sobre la imagen */
+    top: 130%;/*Ajusta la posicion verticalmente*/
+    left: 50%;/*Ajusta la posicion horizontalmente*/
+    transform: translate(-50%, -50%);/*centra todos los contenedores*/
+    
+}
+.main .contenedor .contenedor1{
+    background-color: rgb(55, 164, 214);/*color de fondo*/
+    color: white;/*color de */
+}
+.main .contenedor .contenedor2{
+    background-color: rgb(13, 156, 223); /*color de fondo*/
+    color: white;/*color de fuente*/
+}
+.main .contenedor .contenedor3{
+    background-color: gold;/*color de fondo*/
+    color: white;/*color de fuente*/
+}
+
+.main .contenedor  .titulo,
+.main .contenedor  .parrafo {
+    color: white;/*color de fuente*/
+    text-align: justify;/*alinea el texto*/
+    padding-left: 10px; /*separacion de lado izquierdo*/
+    padding-right: 10px;/*separacion de lado derecho*/
+    margin-top: 10px;/*separacion de la parte superior*/
+    margin-bottom: 30px;/*separacion del lado inferior*/
+}
+.main .contenedor h3{
+    margin-bottom: 40px;/*borde de parte superior*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main .contenedor .contenedor3 .titulo,
+.main .contenedor .contenedor3 .parrafo {
+    color: rgb(20, 20, 20);/*color de fuente*/
+    text-align: justify; /*alinea el texto*/
+}
